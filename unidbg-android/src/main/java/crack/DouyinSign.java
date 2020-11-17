@@ -42,8 +42,8 @@ public class DouyinSign extends AbstractJni {
         memory.setLibraryResolver(new AndroidResolver(23));// 设置系统类库解析
 
         vm = emulator.createDalvikVM(null); // 创建Android虚拟机
-        vm.setJni(this);
-        vm.setVerbose(true);// 设置是否打印Jni调用细节
+        //vm.setJni(this);
+        //vm.setVerbose(true);// 设置是否打印Jni调用细节
 
         // 自行修改文件路径,loadLibrary是java加载so的方法
         DalvikModule dm = vm.loadLibrary(new File("./libcms.so"), false); // 加载libcms.so到unicorn虚拟内存，加载成功以后会默认调用init_array等函数
@@ -149,7 +149,7 @@ public class DouyinSign extends AbstractJni {
         float currentTimeMillis = System.currentTimeMillis();
         int time = (int) (currentTimeMillis / 1000);
 
-        //字节数组得用new ByteArray
+        Native.callStaticJniMethod(emulator, methodSign, -1, time, new ByteArray(vm, data));
         ByteArray ret = Native.callStaticJniMethodObject(emulator, methodSign, -1, time, new ByteArray(vm, data));
 
         // 获取地址的值
