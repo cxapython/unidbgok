@@ -21,14 +21,6 @@ import org.springframework.core.io.ClassPathResource;
 
 public class DouyinSign extends AbstractJni {
 
-    private static LibraryResolver createLibraryResolver() {
-        return new AndroidResolver(23);
-    }
-
-    private static AndroidEmulator createARMEmulator() {
-        return new AndroidARMEmulator("com.sun.jna");
-    }
-
     private final AndroidEmulator emulator;
     private final Module module;
     private final VM vm;
@@ -45,20 +37,20 @@ public class DouyinSign extends AbstractJni {
         }
     }
     private DouyinSign() {
-        emulator = createARMEmulator();
-        final Memory memory = emulator.getMemory();
-        memory.setLibraryResolver(createLibraryResolver());
+        emulator = new AndroidARMEmulator("com.xxx.offical"); // 创建模拟器实例，要模拟32位或者64位，在这里区分
+        final Memory memory = emulator.getMemory(); // 模拟器的内存操作接口
+        memory.setLibraryResolver(new AndroidResolver(23));// 设置系统类库解析
 
-        vm = emulator.createDalvikVM(null);
+        vm = emulator.createDalvikVM(null); // 创建Android虚拟机
         vm.setJni(this);
-        //vm.setVerbose(true);
+        vm.setVerbose(true);// 设置是否打印Jni调用细节
 
-        // 自行修改文件路径loadLibrary是java加载so的方法
-        DalvikModule dm = vm.loadLibrary(new File("./libcms.so"), false);
-        dm.callJNI_OnLoad(emulator);
-        module = dm.getModule();
+        // 自行修改文件路径,loadLibrary是java加载so的方法
+        DalvikModule dm = vm.loadLibrary(new File("./libcms.so"), false); // 加载libcms.so到unicorn虚拟内存，加载成功以后会默认调用init_array等函数
+        dm.callJNI_OnLoad(emulator);// 手动执行JNI_OnLoad函数
+        module = dm.getModule();// 加载好的libcms.so对应为一个模块
 
-        //leviathan所在的类
+        //leviathan所在的类，调用resolveClass解析该class对象
         Native = vm.resolveClass("com/ss/sys/ces/a");
     }
 
@@ -79,7 +71,7 @@ public class DouyinSign extends AbstractJni {
         jnitest.destroy();
     }
 
-    public static String xuzi1(byte[] bArr) {
+    public static String genXGorgon(byte[] bArr) {
         if (bArr == null) {
             return null;
         }
@@ -135,13 +127,14 @@ public class DouyinSign extends AbstractJni {
 
     }
 
-    private void test(String url) throws NoSuchAlgorithmException {
+    private void test(String url) {
         // 调用so的入口，这是smali写法
         String methodSign = "leviathan(II[B)[B";
 
-
+        //解析url里面的参数
         String a2 = getUrlParse(url);
 
+        //字符串转md5
         String a3 = stringToMD5(a2);
         String str3 = "00000000000000000000000000000000";
         String str4 = "00000000000000000000000000000000";
@@ -151,18 +144,18 @@ public class DouyinSign extends AbstractJni {
         sb.append(str3);
         sb.append(str4);
         sb.append(str5);
+
         byte[] data = str2byte(sb.toString());
         float currentTimeMillis = System.currentTimeMillis();
         int time = (int) (currentTimeMillis / 1000);
 
         //字节数组得用new ByteArray
-        Native.callStaticJniMethod(emulator, methodSign, -1, time, new ByteArray(vm, data));
-        Object ret = Native.callStaticJniMethodObject(emulator, methodSign, -1, time, new ByteArray(vm, data));
+        ByteArray ret = Native.callStaticJniMethodObject(emulator, methodSign, -1, time, new ByteArray(vm, data));
 
         // 获取地址的值
-        byte[] tt = (byte[]) ((DvmObject) ret).getValue();
+        byte[] tt = ret.getValue();
         //执行最外层的com.ss.a.b.a.a
-        String s = xuzi1(tt);
+        String s = genXGorgon(tt);
         System.out.println("X-Khronos:" + time);
         System.out.println("X-Gorgon:" + s);
     }
