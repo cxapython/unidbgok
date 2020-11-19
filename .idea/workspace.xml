@@ -14,92 +14,726 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e03388ea-7edb-4bb3-a6ef-af0cca6d377a" name="Default Changelist" comment="myunidbg">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_capstone_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_demumble_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_keystone_0_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_unicorn_1_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_unidbg_api_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_dongliu_apk_parser_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scijava_native_lib_loader_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/unidbgok.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidbg-android/libcms.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_capstone_3_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_demumble_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_keystone_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_unicorn_1_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_unidbg_api_0_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_dongliu_apk_parser_2_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scijava_native_lib_loader_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/unidbgok.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AndroidElfLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AndroidElfLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/crack/DouyinSign.class" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/classes/crack/DouyinSign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/dylib/libcms.soold" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/DexTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/arm64-v8a/libjnidispatch.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/arm64-v8a/libtmessages.29.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/armeabi-v7a/libd-lib.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/armeabi-v7a/libjnidispatch.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/armeabi-v7a/libtmessages.29.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/busybox" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/crackme1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/devices.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/dex.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/ida/android_server64_7.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/ida/android_server_7.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/libnative-lib.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/libpdd_secure.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/libttEncrypt.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/usr/icu/icudt51l.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/libcms.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/mcto/libcupid.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/mcto/libmcto_media_player.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/mcto/libmctocurl.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/unpack/libdemo.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/unpack/libhoudini.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/unpack/libverify.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/target/unidbg-android-0.8.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-android/unidbg-android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/unidbg-android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/src/main/java/com/github/unidbg/arm/SimpleARMDebugger.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/src/main/java/com/github/unidbg/arm/SimpleARMDebugger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/SimpleARMDebugger.class" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/SimpleARMDebugger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/target/test-classes/com/github/unidbg/HexTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/target/unidbg-api-0.8.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-api/unidbg-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/unidbg-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-dynarmic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/arm64-v8a/libdobby.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/arm64-v8a/libhookzz.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/arm64-v8a/libwhale.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/arm64-v8a/libxhook.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/armeabi-v7a/libdobby.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/armeabi-v7a/libhookzz.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/armeabi-v7a/libwhale.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/lib/armeabi-v7a/libxhook.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/dev/__properties__" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libcrypto.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libdl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/liblog.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libssl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libstdcpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/lib/libz.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk19/system/usr/share/zoneinfo/tzdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/dev/__properties__" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libcpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libcrypto.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libdl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/liblog.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libssl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libstdcpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib/libz.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libcpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libcrypto.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libdl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/liblog.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libm.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libssl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libstdcpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/lib64/libz.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/proc/stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/android/sdk23/system/usr/share/zoneinfo/tzdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/AndroidEmulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/file/linux/AndroidFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/file/linux/BaseAndroidFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/file/linux/IOConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/file/linux/LinuxFileSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/file/linux/StatStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/hook/xhook/IxHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/ARM32SyscallHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/ARM64SyscallHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AbsoluteInitFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AndroidElfLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AndroidSyscallHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/LinuxInitFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/LinuxModule$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/LinuxModule$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/LinuxModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/LinuxSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/LinuxThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/ModuleSymbol$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/ModuleSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/AndroidARM64Emulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/AndroidARM64Unwinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/AndroidARMEmulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/AndroidARMUnwinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/AndroidResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ArmLD64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/ElfLibraryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/LogCatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/LogCatLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/SystemPropertyHook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/SystemPropertyHook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/SystemPropertyHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/SystemPropertyProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/URLibraryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/XHookImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/AbstractJni.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/ArmVarArg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/ArrayListObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/BaseVM$ApkLibraryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/BaseVM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$40.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$43.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$44.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$45.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$51.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$52.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$54.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$56.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$57.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$60.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$61.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$62.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$65.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$67.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$68.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$70.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$72.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$73.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$74.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$76.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$77.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$78.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$79.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$83.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$84.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$85.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$86.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$87.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$89.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$90.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$91.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$92.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$93.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$94.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$95.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$96.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$97.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM$98.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$40.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$43.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$44.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$45.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$51.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$52.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$54.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$56.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$57.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$60.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$61.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$62.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$65.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$67.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$68.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$70.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$72.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$73.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$74.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$76.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$77.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$78.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$79.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DalvikVM64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DvmClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DvmClassFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DvmField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DvmMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/DvmObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/Enumeration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/Hashable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/JValueList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/Jni.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/JniFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/StringObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/VM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/VaList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/VaList32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/VaList64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/VarArg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/ApplicationInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/AssetManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/Binder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/Bitmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/Bundle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/ClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/PackageInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/ServiceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/Signature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/api/SystemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/apk/Apk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/apk/ApkDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/apk/ApkFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/apk/ApkFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/apk/AssetResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/ArrayObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/BaseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/ByteArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/DoubleArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/FloatArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/IntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/array/PrimitiveArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/wrapper/DvmBoolean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/wrapper/DvmInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/android/dvm/wrapper/DvmLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/Ashmem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/ByteArrayFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/DirectoryFileIO$DirectoryEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/DirectoryFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/DnsProxyDaemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/DriverFileIO$AndroidAlarmType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/DriverFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/DumpFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LocalAndroidUdpSocket$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LocalAndroidUdpSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LocalSocketIO$SocketHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LocalSocketIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LocalUdpSocket$UdpHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LocalUdpSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/LogCatFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/MapsFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/NullFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/RandomFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/SimpleFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/SocketIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/Stdin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/Stdout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/TcpSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/UdpSocket$NetworkIF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/UdpSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/file/ZeroFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/Dirent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/IFConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/IFReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/IFReq32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/IFReq64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/Stat32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/Stat64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/StatFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/StatFS32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/StatFS64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/struct/SysInfo32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/AndroidModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/virtualmodule/android/JniGraphics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/crack/DouyinSign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/DexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/arm64-v8a/libjnidispatch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/arm64-v8a/libtmessages.29.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/armeabi-v7a/libd-lib.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/armeabi-v7a/libjnidispatch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/armeabi-v7a/libtmessages.29.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/busybox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/crackme1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/devices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/dex.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/ida/android_server64_7.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/ida/android_server_7.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/libcms.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/example_binaries/usr/icu/icudt51l.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/AndroidRelocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/AndroidRelocationIterator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/AndroidRelocationIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ArmExIdx$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ArmExIdx$arm_exbuf_cmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ArmExIdx$arm_exbuf_data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ArmExIdx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/DwarfCursor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/DwarfCursor64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDataIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfDynamicStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfGnuHashTable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfGnuHashTable$HashChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfGnuHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfInitArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfRelocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSegment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSegment$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSegment$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSegment$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSegment$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSegment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfStringTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/ElfSymbolStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$CIE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$FDE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$Off.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$TableEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$dwarf_cfa_t.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$dwarf_loc_rule_t.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader$dwarf_loc_t.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/GnuEhFrameHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/MemoizedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/net/fornwall/jelf/SymbolLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/unidbg-android-0.9.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/unidbg-android-0.9.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/AbstractEmulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/AbstractEmulator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/AbstractEmulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Alignment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/AssemblyCodeDumper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/ByteArrayNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Emulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Family.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/InvalidMemoryAccessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/LibraryResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Module.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/ModuleListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/PointerNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/StopEmulatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/StringNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Svc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Symbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/TraceMemoryHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ARM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ARMEmulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ARMSvcMemory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ARMSvcMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARM64Emulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARM64Emulator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARM64Emulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARMDebugger$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARMDebugger$StringType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARMDebugger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARMEmulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARMEmulator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/AbstractARMEmulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/Arguments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/Arm64Hook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/Arm64Svc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ArmHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ArmIntercept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ArmSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/CodeHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/Cpsr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/HookStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/InlineHook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/InlineHook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/InlineHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/SimpleARM64Debugger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/SimpleARMDebugger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ThumbIntercept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/ThumbSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/Backend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/BackendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/BlockHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/CodeHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/DebugHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/DynarmicBackend$SoftBreakPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/DynarmicBackend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/EventMemHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/InterruptHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/ReadHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend$BreakPointImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/UnicornBackend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/WriteHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/Dynarmic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/DynarmicBackend32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/DynarmicBackend64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/DynarmicCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/DynarmicException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/EventMemHookNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/backend/dynarmic/InterruptHookNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/AbstractRegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/Arm32RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/Arm64RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/BackendArm32RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/BackendArm64RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/BaseRegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/EditableArm32RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/EditableArm64RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/context/RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/AbstractDebugServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/BreakPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/BreakPointCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/Breaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/DebugListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/DebugServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/Debugger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/DebuggerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/BreakpointCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/ContinueCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/DetachCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/EnableExtendedModeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/ExtendedCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/GdbStub$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/GdbStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/GdbStubCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/KillCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/LastSignalCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/MemoryCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/QueryCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/RegisterCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/RegistersCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/SetThreadCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/gdb/StepCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/AndroidServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/DebuggerEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/event/AttachExecutableEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/event/DetachEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/event/LoadExecutableEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/debugger/ida/event/LoadModuleEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/AbstractFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/BaseFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/BaseFileSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/FileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/FileResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/FileSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/IOResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/NewFileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/StdoutCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/file/UnidbgFileFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/Arm32HookContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/Arm64HookContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/BaseHook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/BaseHook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/BaseHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/HookCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/HookContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/HookListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/IHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/InterceptCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/InvocationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/ReplaceCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/Arm64HookEntryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/ArmHookEntryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/Dobby$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/Dobby$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/Dobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookEntryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZzArm32RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZzArm32RegisterContextImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZzArm64RegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZzArm64RegisterContextImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/HookZzRegisterContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/IHookZz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/InstrumentCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/hookzz/WrapCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/whale/IWhale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/hook/whale/Whale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/listener/TraceCodeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/listener/TraceReadListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/listener/TraceWriteListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/MemRegion$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/MemRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/MemoryAllocBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/MemoryBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/MemoryBlockImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/MemoryMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/StackMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/memory/SvcMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/pointer/MemoryWriteListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/pointer/UnidbgPointer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/pointer/UnidbgStructure$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/pointer/UnidbgStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/serialize/Serializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/AbstractLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/Disassembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/Dlfcn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/InitFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/LibraryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/Loader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/ModulePatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/SyscallHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/spi/ValuePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/FileListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/IO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/UnixEmulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/UnixSyscallHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/DlInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/ITimerVal32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/ITimerVal64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/SockAddr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/StdString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/StdString32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/StdString64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/TimeSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/TimeSpec64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/TimeVal32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/TimeVal64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unix/struct/TimeZone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unwind/Frame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unwind/SimpleARM64Unwinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unwind/SimpleARMUnwinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/unwind/Unwinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/utils/Inspector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/utils/ResourceUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/virtualmodule/VirtualModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/virtualmodule/VirtualSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/worker/DefaultWorkerPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/worker/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/worker/WorkerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/worker/WorkerPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/worker/WorkerPoolFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/unidbg-api-0.9.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/classes/com/github/unidbg/arm/backend/dynarmic/DynarmicLoader.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/classes/natives/linux_64/libdynarmic.so" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/classes/natives/osx_64/libdynarmic.dylib" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/com/github/unidbg/arm/backend/Arm64Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/com/github/unidbg/arm/backend/DynarmicBackendTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/com/github/unidbg/arm/backend/dynarmic/DynarmicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/unidbg-dynarmic-0.9.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +792,7 @@
       <recent name="$PROJECT_DIR$/unidbg-android/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DouyinSign">
+  <component name="RunManager" selected="JAR Application.unidbg-android-0.9.0-SNAPSHOT.jar">
     <configuration name="DouyinSign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crack.DouyinSign" />
       <module name="unidbg-android" />
@@ -236,9 +870,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOT.jar" />
         <item itemvalue="Application.DouyinSign" />
         <item itemvalue="JAR Application.unidbg0.9.jar" />
-        <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOT.jar" />
         <item itemvalue="JAR Application.unidbg-dynarmic-0.9.0-SNAPSHOT.jar" />
         <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOTdd.jar" />
       </list>
@@ -263,7 +897,7 @@
       <workItem from="1605614653068" duration="64000" />
       <workItem from="1605614843705" duration="54000" />
       <workItem from="1605666643055" duration="15820000" />
-      <workItem from="1605752950629" duration="746000" />
+      <workItem from="1605752950629" duration="1052000" />
     </task>
     <servers />
   </component>
@@ -338,34 +972,34 @@
       <screen x="-480" y="-1080" width="1920" height="1080" />
     </state>
     <state x="-380" y="-980" width="1720" height="880" key="DiffContextDialog/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605612490242" />
-    <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1605697888918">
+    <state width="1878" height="514" key="GridCell.Tab.0.bottom" timestamp="1605754857962">
       <screen x="-480" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888918" />
+    <state width="1878" height="514" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605754857962" />
     <state width="1878" height="320" key="GridCell.Tab.0.bottom/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990928" />
     <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223705" />
     <state width="1878" height="371" key="GridCell.Tab.0.bottom/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155612" />
     <state width="1878" height="384" key="GridCell.Tab.0.bottom/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825574" />
-    <state width="1878" height="348" key="GridCell.Tab.0.center" timestamp="1605697888912">
+    <state width="1878" height="514" key="GridCell.Tab.0.center" timestamp="1605754857960">
       <screen x="-480" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888912" />
+    <state width="1878" height="514" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605754857960" />
     <state width="1878" height="320" key="GridCell.Tab.0.center/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990926" />
     <state width="1878" height="251" key="GridCell.Tab.0.center/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223703" />
     <state width="1878" height="371" key="GridCell.Tab.0.center/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155608" />
     <state width="1878" height="384" key="GridCell.Tab.0.center/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825573" />
-    <state width="1878" height="348" key="GridCell.Tab.0.left" timestamp="1605697888911">
+    <state width="1878" height="514" key="GridCell.Tab.0.left" timestamp="1605754857959">
       <screen x="-480" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888911" />
+    <state width="1878" height="514" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605754857959" />
     <state width="1878" height="320" key="GridCell.Tab.0.left/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990926" />
     <state width="1878" height="251" key="GridCell.Tab.0.left/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223700" />
     <state width="1878" height="371" key="GridCell.Tab.0.left/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155607" />
     <state width="1878" height="384" key="GridCell.Tab.0.left/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825572" />
-    <state width="1878" height="348" key="GridCell.Tab.0.right" timestamp="1605697888914">
+    <state width="1878" height="514" key="GridCell.Tab.0.right" timestamp="1605754857961">
       <screen x="-480" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="348" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888914" />
+    <state width="1878" height="514" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605754857961" />
     <state width="1878" height="320" key="GridCell.Tab.0.right/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990927" />
     <state width="1878" height="251" key="GridCell.Tab.0.right/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223704" />
     <state width="1878" height="371" key="GridCell.Tab.0.right/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155610" />
@@ -473,12 +1107,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
-          <line>151</line>
+          <line>150</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
-          <line>152</line>
+          <line>151</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

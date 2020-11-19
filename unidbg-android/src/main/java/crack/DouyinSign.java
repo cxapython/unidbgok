@@ -61,7 +61,7 @@ public class DouyinSign extends AbstractJni {
     public static void main(String[] args) throws Exception {
 
         DouyinSign jnitest = new DouyinSign();
-        String url =  "https://aweme-eagle.snssdk.com/aweme/v1/feed/?type=0&max_cursor=0&min_cursor=-1&count=30&volume=0.06666666666666667&pull_type=2&need_relieve_aweme=0&ts=1604989727&app_type=lite&manifest_version_code=180&_rticket=1604989727594&ac=wifi&device_id=2814349075811115&iid=1829220717444520&os_version=8.1.0&channel=xiaoshangdian_douyin_and19&version_code=180&device_type=Pixel&language=zh&resolution=1080*1758&openudid=2dc3087ecc9addf9&update_version_code=1800&app_name=aweme&version_name=1.8.0&os_api=27&device_brand=google&ssmix=a&device_platform=android&dpi=540&aid=1128&as=aac3468be85faa331fc346&cp=8c38c3468be8c3468c3032&mas=015993239979235313f3f9b9b9c56af3c75313f3f959b3f3f3b9b9";
+        String url =  "";
         if(args.length>=1){
             url = args[0];
         }
