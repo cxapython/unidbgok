@@ -39,6 +39,7 @@ class SimpleARMDebugger extends AbstractARMDebugger implements Debugger {
                 e.printStackTrace();
             }
         }
+        System.out.println("强行关闭debug模式");
 // 防止进入debug模式
 //        Scanner scanner = new Scanner(System.in);
 //        String line;
