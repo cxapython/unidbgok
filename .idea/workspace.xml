@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unidbg-android:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e03388ea-7edb-4bb3-a6ef-af0cca6d377a" name="Default Changelist" comment="myunidbg">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_capstone_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_demumble_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_keystone_0_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_unicorn_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_zhkl0228_unidbg_api_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_dongliu_apk_parser_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scijava_native_lib_loader_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/unidbgok.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidbg-android/libcms.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AndroidElfLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/classes/com/github/unidbg/linux/AndroidElfLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/classes/crack/DouyinSign.class" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/classes/crack/DouyinSign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/dylib/libcms.soold" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/DexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/arm64-v8a/libjnidispatch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/arm64-v8a/libtmessages.29.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/armeabi-v7a/libd-lib.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/armeabi-v7a/libjnidispatch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/armeabi-v7a/libtmessages.29.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/busybox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/crackme1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/devices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/dex.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/ida/android_server64_7.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/ida/android_server_7.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/libnative-lib.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/libpdd_secure.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/libttEncrypt.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/example_binaries/usr/icu/icudt51l.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/libcms.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/mcto/libcupid.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/mcto/libmcto_media_player.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/mcto/libmctocurl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/unpack/libdemo.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/unpack/libhoudini.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/test-classes/unpack/libverify.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/target/unidbg-android-0.8.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-android/unidbg-android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-android/unidbg-android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/src/main/java/com/github/unidbg/arm/SimpleARMDebugger.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/src/main/java/com/github/unidbg/arm/SimpleARMDebugger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/SimpleARMDebugger.class" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/target/classes/com/github/unidbg/arm/SimpleARMDebugger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/test-classes/com/github/unidbg/HexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/target/unidbg-api-0.8.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-api/unidbg-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-api/unidbg-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unidbg-dynarmic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/classes/com/github/unidbg/arm/backend/dynarmic/DynarmicLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/classes/natives/linux_64/libdynarmic.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/classes/natives/osx_64/libdynarmic.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/com/github/unidbg/arm/backend/Arm64Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/com/github/unidbg/arm/backend/DynarmicBackendTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/com/github/unidbg/arm/backend/dynarmic/DynarmicTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidbg-dynarmic/target/test-classes/log4j.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.5.4-bin/4lcg54ki11c6mp435njk296gm5/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jrUyBUrmyotD1XvuH6XaczFQN8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main/java/crack" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main/java/example_binaries" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main/java" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main/resources/example_binaries" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jna" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src/test/resources" />
+      <recent name="$PROJECT_DIR$/unidbg-android" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src" />
+      <recent name="$PROJECT_DIR$/unidbg-android/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DouyinSign">
+    <configuration name="DouyinSign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crack.DouyinSign" />
+      <module name="unidbg-android" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DouyinSign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crack.DouyinSign" />
+      <module name="unidbg-android" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DouyinSign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.unidbg.DouyinSign" />
+      <module name="unidbg-android" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.unidbg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unidbg-android-0.9.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/unidbg-android/target/unidbg-android-0.9.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unidbg-android-0.9.0-SNAPSHOTdd.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/unidbg-android/target/unidbg-android-0.9.0-SNAPSHOTdd.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unidbg-dynarmic-0.9.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/unidbg-dynarmic/target/unidbg-dynarmic-0.9.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unidbg0.9.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/unidbg-android/target/unidbg0.9.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DouyinSign" />
+      <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOTdd.jar" />
+      <item itemvalue="JAR Application.unidbg0.9.jar" />
+      <item itemvalue="JAR Application.unidbg-dynarmic-0.9.0-SNAPSHOT.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DouyinSign" />
+        <item itemvalue="JAR Application.unidbg0.9.jar" />
+        <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.unidbg-dynarmic-0.9.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.unidbg-android-0.9.0-SNAPSHOTdd.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e03388ea-7edb-4bb3-a6ef-af0cca6d377a" name="Default Changelist" comment="" />
+      <created>1604561957140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604561957140</updated>
+      <workItem from="1604561960192" duration="3890000" />
+      <workItem from="1604565998571" duration="581000" />
+      <workItem from="1604566644528" duration="1788000" />
+      <workItem from="1604568536659" duration="3903000" />
+      <workItem from="1604634199101" duration="7537000" />
+      <workItem from="1604890327696" duration="16685000" />
+      <workItem from="1605596623366" duration="288000" />
+      <workItem from="1605601866734" duration="10676000" />
+      <workItem from="1605614653068" duration="64000" />
+      <workItem from="1605614843705" duration="54000" />
+      <workItem from="1605666643055" duration="15820000" />
+      <workItem from="1605752950629" duration="746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="myunidbg" />
+    <option name="LAST_COMMIT_MESSAGE" value="myunidbg" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-32" y="-959" key="#Project_Structure" timestamp="1605613217263">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-32" y="-959" key="#Project_Structure/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605613217263" />
+    <state x="-32" y="-959" key="#Project_Structure/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604634368622" />
+    <state x="-56" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604648602306">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-56" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604648602306" />
+    <state x="293" y="-817" key="#com.intellij.ide.util.MemberChooser" timestamp="1604562259731">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="293" y="-817" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604562259731" />
+    <state x="218" y="-743" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605613189530">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="218" y="-743" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605613189530" />
+    <state x="218" y="-743" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604563733547" />
+    <state width="449" height="466" key="DebuggerActiveHint" timestamp="1604649401605">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="449" height="466" key="DebuggerActiveHint/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604649401605" />
+    <state x="-380" y="-980" width="1720" height="880" key="DiffContextDialog" timestamp="1605612490242">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-380" y="-980" width="1720" height="880" key="DiffContextDialog/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605612490242" />
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom" timestamp="1605697888918">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888918" />
+    <state width="1878" height="320" key="GridCell.Tab.0.bottom/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990928" />
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223705" />
+    <state width="1878" height="371" key="GridCell.Tab.0.bottom/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155612" />
+    <state width="1878" height="384" key="GridCell.Tab.0.bottom/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825574" />
+    <state width="1878" height="348" key="GridCell.Tab.0.center" timestamp="1605697888912">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888912" />
+    <state width="1878" height="320" key="GridCell.Tab.0.center/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990926" />
+    <state width="1878" height="251" key="GridCell.Tab.0.center/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223703" />
+    <state width="1878" height="371" key="GridCell.Tab.0.center/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155608" />
+    <state width="1878" height="384" key="GridCell.Tab.0.center/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825573" />
+    <state width="1878" height="348" key="GridCell.Tab.0.left" timestamp="1605697888911">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888911" />
+    <state width="1878" height="320" key="GridCell.Tab.0.left/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990926" />
+    <state width="1878" height="251" key="GridCell.Tab.0.left/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223700" />
+    <state width="1878" height="371" key="GridCell.Tab.0.left/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155607" />
+    <state width="1878" height="384" key="GridCell.Tab.0.left/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825572" />
+    <state width="1878" height="348" key="GridCell.Tab.0.right" timestamp="1605697888914">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888914" />
+    <state width="1878" height="320" key="GridCell.Tab.0.right/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668990927" />
+    <state width="1878" height="251" key="GridCell.Tab.0.right/0.23.1440.806/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1604990223704" />
+    <state width="1878" height="371" key="GridCell.Tab.0.right/0.23.1440.808/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604980155610" />
+    <state width="1878" height="384" key="GridCell.Tab.0.right/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605671825574" />
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1605697888922">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888922" />
+    <state width="1878" height="348" key="GridCell.Tab.1.center" timestamp="1605697888920">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.center/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888920" />
+    <state width="1878" height="348" key="GridCell.Tab.1.left" timestamp="1605697888919">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.left/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888919" />
+    <state width="1878" height="348" key="GridCell.Tab.1.right" timestamp="1605697888921">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.right/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605697888921" />
+    <state x="18" y="-878" key="Maven.ArtifactSearchDialog" timestamp="1605668432296">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="18" y="-878" key="Maven.ArtifactSearchDialog/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605668432296" />
+    <state x="214" y="-831" key="RollbackChangesDialog" timestamp="1605606987731">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="214" y="-831" key="RollbackChangesDialog/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605606987731" />
+    <state x="-32" y="-959" key="SettingsEditor" timestamp="1605611584515">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-32" y="-959" key="SettingsEditor/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605611584515" />
+    <state x="-32" y="-959" key="SettingsEditor/0.23.1440.804/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605610228492" />
+    <state x="-32" y="-959" key="SettingsEditor/0.23.1440.877/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604563770030" />
+    <state x="80" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1604992503596">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="80" y="-800" key="Vcs.Push.Dialog.v2/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1604992503596" />
+    <state x="181" y="-785" width="638" height="490" key="find.popup" timestamp="1605699114830">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="181" y="-785" width="638" height="490" key="find.popup/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605699114830" />
+    <state x="-127" y="-877" key="new project wizard" timestamp="1605672083507">
+      <screen x="-480" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-127" y="-877" key="new project wizard/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1605672083507" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/test/java/com/sun/jna/DouyinSign.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>339</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>340</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/test/java/com/sun/jna/DouyinSign.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/test/java/com/sun/jna/DouyinSign.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/test/java/com/sun/jna/DouyinSign.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-android/src/main/java/crack/DouyinSign.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/unidbg-api/src/main/java/com/github/unidbg/arm/SimpleARMDebugger.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

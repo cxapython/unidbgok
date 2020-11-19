@@ -4,7 +4,7 @@
     <groupId>com.github.zhkl0228</groupId>
     <artifactId>unidbg-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.7.0</version>
+    <version>0.9.0</version>
     <modules>
         <module>unidbg-api</module>
         <module>unidbg-android</module>
@@ -89,20 +89,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.0.2</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <mainClass>com.leishu.Application</mainClass> <!-- 此处为主入口-->
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-
         </plugins>
         </pluginManagement>
     </build>
@@ -131,7 +117,13 @@
             <version>1.7.26</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.zhkl0228</groupId>
+            <artifactId>unidbg-api</artifactId>
+            <version>0.9.0</version>
+        </dependency>
     </dependencies>
+
     <distributionManagement>
         <snapshotRepository>
             <id>oss</id>
@@ -142,4 +134,5 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+
 </project>

@@ -42,7 +42,7 @@ public class DouyinSign extends AbstractJni {
         memory.setLibraryResolver(new AndroidResolver(23));// 设置系统类库解析
 
         vm = emulator.createDalvikVM(null); // 创建Android虚拟机
-        //vm.setJni(this);
+        vm.setJni(this);
         //vm.setVerbose(true);// 设置是否打印Jni调用细节
 
         // 自行修改文件路径,loadLibrary是java加载so的方法
